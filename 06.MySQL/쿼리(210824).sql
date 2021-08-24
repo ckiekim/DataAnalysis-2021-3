@@ -1,0 +1,1 @@
+SELECT id, date_format(dt, '%Y-%m-%d'), DAYOFWEEK(dt) FROM date_table;		/* comment */
